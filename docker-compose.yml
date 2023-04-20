@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mage:
+    image: dtc_project:1.0.0
+    build:
+      dockerfile: Dockerfile
+    container_name: dtc_project
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/home/src/credentials/your_credentials.json
+    command: /home/src/run_app.sh mage start dtc_project
+    ports:
+      - "6789:6789"
+    volumes:
+      - ./credentials/:/home/src/credentials/

@@ -1,0 +1,17 @@
+version: 0.1.1
+default:
+  # Default profile created for data IO access.
+  # Add your credentials for the source you use, and delete the rest.
+  GOOGLE_SERVICE_ACC_KEY:
+  "type": "service_account"
+  "project_id": "excellent-guard-379522"
+  "private_key_id": "44fa04bfac49f510025b1a20c3a3bbd6024d49ae"
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPYtVxCuGfw5iE\nNutvawNBfb6U9xySPgvA6IKhJqyY1L8YwJCEbwU7obU01YTsG4uKVfpOu2HAIahN\nn8DaiVdQ1cwpa3iAUQZU+QnjTm5YXkest37qLAB5glvV/nLlrimNf6d3XkZZPGqv\nOdy4tyXkZ6yYZVsY+IAngIB8vwrmE0rTd/mjbDt+vgM6PAKirTbh5O/fnZsCkaPQ\nzF2wwNiZOgHsc3gSpiNdW+eN8L2DU4DA8m1Wdqw2eIPwDbs/jg4CMpLzvMj/Odrk\nkWstl5vYqv5/vkJ1124xeLXgm31T/8KsLw061zonATBhJfybqenSGlCuedyMcmMB\n3ykJQBC9AgMBAAECggEAECv2VfLRxkoT3heEQ3N2VQiPsIEWjsbc1sWqzhM8eUx5\nvF3jxxf7Mfu5rC2MSHcbagWrV7Ff/YICZE81VDVKhEivu3kgc+0dj8m9viZzD1wG\nvc6vTGZzAQarz6OgZQ2wOtL+BZ5p4PKHpTNfZV4Oy+FTwayBrpBOOgZYvqGNIYSy\nqYJzDvPDjQdsdz7yqtTlPHYS41nya4sfZSq3l6CHjtBnGcGaJODFGZDsLosNFaC+\n/rnvSAoSC56SHhC078S6a6jSQiajUWDUP2b5TuS1dNvEknLH90fzyTo2UL9GbBts\nyuqPtF9kcBLgM/qQw4lCw9Xo4kmd2dmLa4oHCk2rFwKBgQDs6b8omf8bJMRSlRvL\nqFPFWBjKZxMXD7sv5pv/lTGdkwuPV8XJMqWnKwjr+FOjRbAy1A31YYMMDY+o8KTQ\nDwkeBp3C1AASrtezM3GIubsWtMJF1dg5hBiJ3l24wZUarRWF2u1tSQIwRhBfeoZT\nc/4wBpY4PCezDOaS3SYudHTyCwKBgQDgGBo4CGiEhc7V9K2BmjfHFEOM6qLSa28w\nczzT6LWEcXUbovHdVlNj3BAfDUySWszs6/ghMnkk5Ydc21oKf7U+G7qWUW8+t139\ns9GHVxUITia2//DIv0GOVMIyZabGRIpDtpBqOSjg7eyRva8ta5h5mJZ39sREUx5y\nVxf5423NVwKBgFDXVjZpjgZaHm+7l7d/4c32SMdQMtBsusgWneaxpzOIyKoKHmCQ\nWrxXT/0NSKTvE7fUakrwEkKbogjYzLR+XPMU+OJRaxD0/n+Ur0ojbnbKCXzBAr5l\nl+X7relsjQ+EPlLlqJzhC9EjJ1UdPxbc/sCujrXzuOw9G7TDp9K0RG+PAoGBANmi\njtQcVmVeDqJ8HoXf4IvXgkM5HSh+bl3/jPPA7YjTJ4jPl1X+oL462u1NXTBGPv9Z\nrIGRI1ZSFER6Q9gubzcCdxPFwuSF8SKToMpwKF0IiVDxAEf2dxRj/LY1QuMLbbyV\ncWu4V5sbdsWUEq1p8YsmRfv8DGDO2KLzMrXdyqXBAoGBAJVaNUYMenIqkobT6vvd\nsm/UsAttIV61U244o4D2UjfnUw2r9vr5dpAIUpo8RhdHiL8JCbk4bAVDVinAFiSs\nIroiJECY918Y7tf4tw4+EodbwyCuHg3ySIBCYHH013si84ASY/sDY32GjTf7wz1c\nE2TYYnIjJO9BZVsisE9UkM5M\n-----END PRIVATE KEY-----\n"
+  "client_email": "dbt-service-account@excellent-guard-379522.iam.gserviceaccount.com"
+  "client_id": "105910832383282686941"
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth"
+  "token_uri": "https://oauth2.googleapis.com/token"
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dbt-service-account%40excellent-guard-379522.iam.gserviceaccount.com"
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/excellent-guard-379522-44fa04bfac49.json"
+ 

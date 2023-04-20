@@ -1,0 +1,14 @@
+dtc_project:
+  outputs:
+    dev:
+      dataset: mage_dtc_project
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      keyfile: /home/src/credentials/excellent-guard-379522-362d38c79881.json
+      method: service-account
+      priority: interactive
+      project: dtc-covid
+      threads: 1
+      type: bigquery
+  target: dev

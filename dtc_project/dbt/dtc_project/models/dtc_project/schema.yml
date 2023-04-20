@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: covid_bq
+  - name: covid_view

@@ -1,0 +1,8 @@
+sources:
+- name: dtc_project
+  tables:
+  - name: covid
+- name: mage_dtc_project
+  tables:
+  - name: dtc_pipeline_transform
+version: 2
