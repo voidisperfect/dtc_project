@@ -20,9 +20,10 @@ You can run Mage in GCP by following its [documentation](https://docs.mage.ai/pr
 2. Create service account on GCP inside `dtc-covid` project with 4 following roles: Actions Viewer, BigQuery Admin, Storage Admin, Storage Object Admin. Then, download this GCP service account credential JSON file to `./credentials` (on the same directory level with this README) and set the absolute path to `GOOGLE_APPLICATION_CREDENTIALS` environment variable: `export GOOGLE_APPLICATION_CREDENTIALS=<gcp_credential_json_path>` or `$env:GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`. 
 3. Bring GCP infrastructure up:
 ```
-cd infra
+cd terraform
 terraform init
 terraform apply
+cd ..
 ```
 4. Replace `<your_gcp_credential_json>` with your GCP credential JSON file name (e.g: dtc-covid-7a8ff7d6804f.json) in the environment variable `GOOGLE_APPLICATION_CREDENTIALS `value inside `docker-compose.yml`.
 If you run into an error while running the pipeline, also change it in `dbt/dtc_project/profiles.yml`
