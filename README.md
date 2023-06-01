@@ -1,4 +1,4 @@
-### DTC project with covid data
+### [DTC DE zoomcamp project](https://github.com/DataTalksClub/data-engineering-zoomcamp) with covid data
 ## Overview
 I am using data from https://covid19.who.int/ to visualize covid trends. 
 Focusing on using the technology and not complexity of the code because I am not very good with it yet.
