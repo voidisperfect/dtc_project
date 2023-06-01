@@ -9,7 +9,7 @@ To run this project you need:
 * Google Cloud Platform (GCP) account
 ## Data Pipeline
 ![](https://i.imgur.com/Xj2vsIn.jpeg)
-* Terraform launches GCP resources (GCS)
+* Terraform launches GCP resources (GCS, terraform is not required since Mage is able to create the gcs bucket during export, it is kept for the sake of learning)
 * Docker launches Mage image
 * Inside Mage we load data from WHO URL and clean it, then we export clean csv file to GCS AND using DBT we load our data to BigQuery, creating 2 tables: 1 is partitioned and clustered by date and region, and other isn't. DBT creates bigquery table and project itself.
 ![](https://i.imgur.com/pgrgCwe.png)
